@@ -25,6 +25,7 @@ class LinkList extends Component {
           if (error) return <div>Error</div>;
 
           const linksToRender = data.feed.links;
+
           return (
             <div>
               {linksToRender.map(link => (
